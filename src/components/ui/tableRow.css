@@ -1,0 +1,5 @@
+.contactName{font-weight:600;color:#293653!important}.contactActionsCell{position:relative;text-align:center}
+.rowMenuButton{width:34px;height:32px;padding:0;color:#687590;background:transparent}.rowMenuButton:hover{background:#eef1fa}
+.rowMenu{position:absolute;z-index:3;top:46px;left:12px;display:flex;gap:6px;padding:7px;background:#fff;border:1px solid #e8ecf3;border-radius:10px;box-shadow:0 8px 22px rgba(35,48,77,.12)}
+.editMenuButton{color:#5369c8;background:#eef1ff}.deleteMenuButton{color:#c84755;background:#fff0f1}
+.contactActionsCell input[type=checkbox]{width:17px;height:17px;accent-color:#5369c8;cursor:pointer}

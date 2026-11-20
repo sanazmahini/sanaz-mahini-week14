@@ -1,0 +1,14 @@
+.contactsPage{width:100%;min-height:100vh;padding:56px 20px 32px;display:flex;flex-direction:column;align-items:center}
+.contactsCard{width:min(100%,980px);padding:32px;background:#fff;border:1px solid #e8ecf4;border-radius:20px;box-shadow:0 14px 40px rgba(39,55,88,.07)}
+.contactsHeader{display:flex;justify-content:space-between;align-items:center;gap:20px;margin-bottom:28px}
+.contactsEyebrow{color:#6475a0;font-size:13px;font-weight:600}.contactsTitle{margin:6px 0;color:#202d49;font-size:27px}
+.contactsDescription{margin:0;color:#8490a8;font-size:14px}
+.contactsCount{width:74px;height:74px;display:flex;flex-direction:column;justify-content:center;align-items:center;border-radius:18px;color:#5369c8;background:#eef1ff}
+.contactsCount span{font-size:23px;font-weight:700;line-height:1.2}.contactsCount small{font-size:11px}
+.contactsToolbar{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:22px}
+.contactsActions{display:flex;align-items:center;gap:9px}
+.addButton{min-height:42px;padding:0 16px;color:#fff;background:#5369c8}.addButton:hover{background:#4056b5}
+.iconButton,.deleteSelectedButton{width:42px;height:42px;padding:0;color:#6475a0;background:#f0f2f8}
+.activeButton{color:#5369c8;background:#e9edff}.deleteSelectedButton{color:#d14e5b;background:#fff0f1}
+.resetIcon{display:inline-flex;color:#8a95aa;padding:8px}.contactsFooter{margin:18px 0 0;color:#9aa4b7;font-size:12px;text-align:center}
+@media(max-width:650px){.contactsPage{padding:20px 12px}.contactsCard{padding:20px 14px;border-radius:16px}.contactsHeader{align-items:flex-start}.contactsTitle{font-size:23px}.contactsToolbar{align-items:stretch;flex-direction:column}.contactsActions{justify-content:flex-start}}

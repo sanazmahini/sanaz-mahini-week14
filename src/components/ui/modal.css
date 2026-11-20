@@ -1,0 +1,7 @@
+.modalOverlay{position:fixed;inset:0;z-index:20;display:flex;justify-content:center;align-items:center;padding:18px;background:rgba(26,35,58,.48);backdrop-filter:blur(3px)}
+.modalBox{width:min(100%,390px);padding:28px 25px 22px;text-align:right;background:#fff;border:1px solid #edf0f5;border-radius:18px;box-shadow:0 20px 60px rgba(20,30,55,.2);animation:modalShow .18s ease-out}
+.modalIcon{width:42px;height:42px;display:flex;justify-content:center;align-items:center;color:#c98732;background:#fff5e7;border-radius:13px;font-size:23px;font-weight:700}
+.modalTitle{margin:17px 0 8px;color:#293653;font-size:18px}.modalText{margin:0;color:#75819a;font-size:13px;line-height:1.9}
+.modalActions{display:flex;gap:9px;margin-top:23px}.modalConfirmButton{min-width:90px;color:#fff;background:#5369c8}.modalConfirmButton:hover{background:#4056b5}
+.modalCancelButton{color:#65718a;background:#edf0f6}
+@keyframes modalShow{from{opacity:0;transform:translateY(8px) scale(.98)}to{opacity:1;transform:translateY(0) scale(1)}}
